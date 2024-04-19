@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>756</width>
+    <height>487</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>30</y>
+     <width>401</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 87 18pt &quot;Source Sans Pro Black&quot;;
+color: rgb(227, 202, 165);
+</string>
+   </property>
+   <property name="text">
+    <string>WELCOME TO DECOFFE MEMBERSHIP</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>60</y>
+     <width>391</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none;
+font: 11pt &quot;Source Sans Pro&quot;;
+background-color: rgba(255, 255, 255, 0);
+text-align: justify;
+color:rgb(227, 202, 165);</string>
+   </property>
+   <property name="plainText">
+    <string>Ayo! daftarkan diri anda di Decoffe Membership untuk mendapatkan potongan harga serta promo - promo menarik lainnya</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>180</y>
+     <width>191</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">font: 63 9pt &quot;Source Sans Pro Semibold&quot;;
+color: rgb(227, 202, 165);</string>
+      </property>
+      <property name="text">
+       <string>Nama Depan</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">font: 63 9pt &quot;Source Sans Pro Semibold&quot;;
+color: rgb(227, 202, 165);</string>
+      </property>
+      <property name="text">
+       <string>Telepon</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_5">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="styleSheet">
+       <string notr="true">font: 63 9pt &quot;Source Sans Pro Semibold&quot;;
+color:rgb(227, 202, 165);</string>
+      </property>
+      <property name="text">
+       <string>Kata Sandi</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_7">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>311</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="images.qrc">:/newPrefix/images/download.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>380</y>
+     <width>321</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 9pt &quot;Source Sans Pro Semibold&quot;;
+color: rgb(173, 139, 115);</string>
+   </property>
+   <property name="text">
+    <string>Ya. saya ingin menerima email DeCoffe Membership</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>400</y>
+     <width>321</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 9pt &quot;Source Sans Pro Semibold&quot;;
+color: rgb(173, 139, 115);</string>
+   </property>
+   <property name="text">
+    <string>Saya menyetujui persyaratan, kebijakan privasi, dan biaya</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>150</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 9pt &quot;Source Sans Pro Semibold&quot;;
+color: rgb(149, 110, 75);
+</string>
+   </property>
+   <property name="text">
+    <string>Sudah memiliki akun?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>430</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(173, 139, 115);
+color:rgb(255, 251, 233);
+font: 80 10pt &quot;Source Sans Pro&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Sign Up</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>440</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>0</y>
+     <width>631</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="images.qrc">:/newPrefix/images/wallpaper.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>180</y>
+     <width>191</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">font: 63 9pt &quot;Source Sans Pro Semibold&quot;;
+color: rgb(227, 202, 165);</string>
+      </property>
+      <property name="text">
+       <string>Nama Belakang</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">font: 63 9pt &quot;Source Sans Pro Semibold&quot;;
+color: rgb(227, 202, 165);</string>
+      </property>
+      <property name="text">
+       <string>E-Mail</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_6">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_12">
+      <property name="styleSheet">
+       <string notr="true">font: 63 9pt &quot;Source Sans Pro Semibold&quot;;
+color:rgb(227, 202, 165);</string>
+      </property>
+      <property name="text">
+       <string>Konfirmasi Kata Sandi</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_8">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>460</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 9pt &quot;Source Sans Pro bold&quot;;
+color: rgb(227, 202, 165);
+</string>
+   </property>
+   <property name="text">
+    <string>Developed by Diah Pitaloka</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>150</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 90 9pt &quot;Source Sans Pro&quot;;
+border: no border;
+color:rgb(56, 112, 168);
+</string>
+   </property>
+   <property name="text">
+    <string>Log in</string>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>label_8</zorder>
+  <zorder>plainTextEdit</zorder>
+  <zorder>verticalLayoutWidget_3</zorder>
+  <zorder>label_2</zorder>
+  <zorder>checkBox</zorder>
+  <zorder>checkBox_2</zorder>
+  <zorder>label_10</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>label</zorder>
+  <zorder>verticalLayoutWidget_4</zorder>
+  <zorder>label_13</zorder>
+  <zorder>pushButton_2</zorder>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
